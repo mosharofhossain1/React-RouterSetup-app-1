@@ -3,7 +3,8 @@ import { Outlet } from 'react-router-dom'
 import './App.css'
 
 import Nav from './components/Nav/Nav'
-import Home from './components/Home/Home'
+
+import Footer from './components/Footer/Footer'
 
 function App() {
 
@@ -11,8 +12,9 @@ function App() {
   return (
     <div>
       <Nav></Nav>
-      <Home></Home>
+
       <Outlet></Outlet>
+      <Footer></Footer>
     </div>
   )
 }
